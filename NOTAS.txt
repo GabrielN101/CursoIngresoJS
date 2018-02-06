@@ -1,0 +1,15 @@
+alert ("texto") crear cuadro de dialogo
+-----------------------
+/*
+	var person = prompt("Ingrese nombre"); //Aca se ingresa nombre
+	alert(person); //Se muestra el sujeto
+*/
+comenta en bloque, //comenta linea
+--------------------------
+W3SCHOOLS y GITHUB paginasde codigo y red social
+-------------------------
+
+document.g TAB SHIFT+I
+---------------------------
+Aparece ObjextHTML Error? olvide .value
+nombre = document.getElementById('elNombre').value;
