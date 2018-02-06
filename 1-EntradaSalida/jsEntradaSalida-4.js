@@ -4,6 +4,9 @@
 */
 function Mostar()
 {
-	
+	var nombre;
+	nombre = prompt("Ingrese nombre");
+	document.getElementById('elNombre').value = nombre; //Con esto, cambia el orden, nombre = a lo que escribi en el texto
+
 }
 
