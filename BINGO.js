@@ -21,9 +21,10 @@ function Mostrar()
 	var porcen7;
 	var porcen8;
 	var porcen9;
+	var iteraciones=100;
 
 
-	for(contador=0;contador<1000;contador++)
+	for(contador=0;contador<iteraciones;contador++)
 	{
 		numeroRandom= Math.floor((Math.random() * 10) + 0);
 
@@ -48,7 +49,17 @@ function Mostrar()
 				contadorCinco++;
 				break;
 			case 6:
-				contadorSeis++;
+				porcen6=(contadorSeis/(iteraciones))*100;
+				console.log(porcen6);
+				if(porcen6>7)
+				{
+					contador--;
+					continue;
+				}
+				else
+				{
+					contadorSeis++
+				}
 				break;
 			case 7:
 				contadorSiete++;
